@@ -1,0 +1,2026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>33cbd81d-f33b-494a-96ea-1bd40894fd2a</ID>
+  <Version>7</Version>
+  <AttributesVersion>1</AttributesVersion>
+  <Name />
+  <Author>moata</Author>
+  <Company>20120530</Company>
+  <Notes />
+  <Template>MaterialUniverse\All bulk materials.cet</Template>
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\Granta Selector\2024 R1\Database\Metals\data.gdb</Path>
+    <Name>Metals plus</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>USD</Currency>
+    <SelectionTable>MaterialUniverse</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>ecoinvent database - key indicators</TableName>
+        <SubsetName>All records</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xa08b82d1-6ab0-4f3f-bc48-dcdf114ffdd4</Id>
+            <Name>Energy</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X943bdb45-1cd8-4f42-a43b-7871e1daf134</Id>
+            <Name>Farming and fishing</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X37455aae-874c-4824-8a81-9ba460b501c0</Id>
+            <Name>Fuels</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xbfdeb3f7-028c-4457-b7f4-9eae9ca6d724</Id>
+            <Name>Infrastructure</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb04a9cd5-d6dc-4cd0-9cae-daeda9eb5bba</Id>
+            <Name>Materials</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf0fb092d-a803-416e-a076-82d7f09d1866</Id>
+            <Name>Processes</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb9d25b18-132c-4cba-8e39-758d0af1969f</Id>
+            <Name>Products and parts</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X258feb0c-23de-4c26-85a4-ce783851551c</Id>
+            <Name>Transport</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf49ddd12-b228-49ec-a420-2fbddd617c59</Id>
+            <Name>Waste</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xad64b417-739b-4cec-aac0-8604c0272e3e</Id>
+            <Name>Water</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MIL-HDBK-17 Graphical Data</TableName>
+        <SubsetName>All grades</SubsetName>
+        <LayoutName>All grades</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MIL-HDBK-17 Test Data</TableName>
+        <SubsetName>All data</SubsetName>
+        <LayoutName>All data</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Powder Metals Suppliers</TableName>
+        <SubsetName>Suppliers</SubsetName>
+        <LayoutName>Suppliers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Powder Metals Design Data</TableName>
+        <SubsetName>Design data</SubsetName>
+        <LayoutName>Design data</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xeaecc680-d8b2-4911-a1eb-e21e53f3c75f</Id>
+            <Name>Aluminum</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X5244cbc0-4a2b-4fd4-9bb2-44994254aa72</Id>
+            <Name>Copper alloy</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe6d9b000-7525-4373-b25c-5a2e2f2337d1</Id>
+            <Name>Ferrous</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X555f6100-d35d-40ed-9be5-cb366370e758</Id>
+            <Name>Titanium</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X85ee264d-e6d1-4185-8bfd-453b93ab0afa</Id>
+            <Name>Tungsten</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>StahlDat Sheet Steels - Test Data</TableName>
+        <SubsetName>Test data</SubsetName>
+        <LayoutName>Generic</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>StahlDat Sheet Steels</TableName>
+        <SubsetName>All Materials</SubsetName>
+        <LayoutName>General</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Global Metals Specifications</TableName>
+        <SubsetName>All specifications</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X9e8f6c38-271c-4006-b18e-89d3d364326c</Id>
+            <Name>Ferrous</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X90e976ac-8f1d-4d3f-bd04-0927ffe4073f</Id>
+            <Name>Magnetic alloys</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xdd70e1e1-96a4-40f7-b5ec-39f2cbf3677e</Id>
+            <Name>Non-ferrous</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xde055774-960c-4a51-a44d-a70986ec3f24</Id>
+            <Name>Other metals</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X081a23cc-9465-4c6f-b8c6-6c6c86a33305</Id>
+            <Name>Precious metals</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf5dd3ea9-3e34-4b5f-8187-d38761f2972f</Id>
+            <Name>Rare earth metals</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X47bc621e-6a7c-4ca3-8f2e-2bc0dd127c60</Id>
+            <Name>Refractory alloys</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>JAHM Curve Data</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xeb210b7a-ef43-4289-a272-2658a36d159f</Id>
+            <Name>Ceramics and glasses</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X9c8956b5-b2dd-40b1-bb45-5f5267654248</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X189dc38c-b878-4f81-abef-df4576cda9b3</Id>
+            <Name>Elements and compounds</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X6f6984d3-f440-4f75-8087-0a58ee41a8c6</Id>
+            <Name>Functional materials</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X52b04341-f639-4d26-91d8-c261260ab80d</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3fc5070c-d650-47a6-a841-5616645b81db</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3b4edab4-3a75-4cd5-ba09-0766bc0c0eee</Id>
+            <Name>Polymers</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Senvol Database - Materials</TableName>
+        <SubsetName>All grades</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xe0470c43-a1d3-48cd-8e4f-605a0b9ce083</Id>
+            <Name>Ceramic</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1fcf1da6-a6da-4c22-a842-ca87cf8237fb</Id>
+            <Name>Composite</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xd0f57689-23d6-4c69-9e9d-0c09cc6f90eb</Id>
+            <Name>Metal</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X39688905-a1e3-4260-a2cd-d1580e3bb8d7</Id>
+            <Name>Polymer</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xcd13ff64-7bd3-4cb2-afdf-8381ce73e98d</Id>
+            <Name>Sand</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X549ab91a-e5c5-443f-adf8-80f0511fd27f</Id>
+            <Name>Conventional Ceramic</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xca159ec4-df55-4307-9d1c-8f9740faea98</Id>
+            <Name>Conventional Metal</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X92464ca1-96e2-4b92-913f-908a8112a87a</Id>
+            <Name>Conventional Polymer</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MaterialUniverse</TableName>
+        <SubsetName>All bulk materials</SubsetName>
+        <LayoutName>All bulk materials</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X03049d73-0df0-4806-afcd-85a3fc565bdd</Id>
+            <Name>Glass ceramics</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>52</Id>
+            <Name>Glasses</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X694b6834-5f2a-410c-9eac-9e3b6e287325</Id>
+            <Name>Non-technical ceramics</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>232</Id>
+            <Name>Technical ceramics</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>13535</Id>
+            <Name>Fibers and particulates</Name>
+            <Color>13</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7005</Id>
+            <Name>Natural fibers</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>4329</Id>
+            <Name>Composites</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7014</Id>
+            <Name>Foams</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X87ef5279-c41c-4350-8dfc-a6da75c5476d</Id>
+            <Name>Honeycombs</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>7004</Id>
+            <Name>Natural materials</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1bd95d43-1ad5-4cf6-a869-3c1000c5d970</Id>
+            <Name>Mineralized tissue</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xabc6ca67-59a4-43b8-b61b-2c43088561d6</Id>
+            <Name>Soft tissue</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb6f06cd4-69ce-4455-bf07-f7c4490c523b</Id>
+            <Name>PCB laminates</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb9792dea-662a-4b27-a3f3-280d2045f462</Id>
+            <Name>Gases</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa87eb136-4fd4-4b4b-b16c-5e4031d8dc6c</Id>
+            <Name>Liquids</Name>
+            <Color>14</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xecd7c10f-4f78-45d5-ad54-6a6429f1029e</Id>
+            <Name>Magnetic materials</Name>
+            <Color>15</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>1590</Id>
+            <Name>Metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X03cc6bbd-b370-40bc-b95c-df31e10aaa72</Id>
+            <Name>Elastomers</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa49e66e3-edbf-4b30-a54c-02c8c62f811b</Id>
+            <Name>Plastics</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Senvol Database - Machines</TableName>
+        <SubsetName>All models</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X1690f00f-3674-45cc-b8ce-d0c4b3c1f015</Id>
+            <Name>Binder Jetting</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3c4beb24-6dfc-499c-89d3-e7324184efd4</Id>
+            <Name>Directed Energy Deposition</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X5bce82cd-dd08-4928-93ee-5585e3ade431</Id>
+            <Name>Material Extrusion</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3aa1f87a-a52b-48ce-ad5c-a4a9041d880d</Id>
+            <Name>Material Jetting</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xbd917149-55d8-4d70-9447-cd5c310a4c90</Id>
+            <Name>Powder Bed Fusion</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xea48fbba-f3a4-43c0-875e-239cab2911f0</Id>
+            <Name>Sheet Lamination</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1bd4b493-ee16-4768-8d48-7c9ac16616da</Id>
+            <Name>Vat Photopolymerization</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Advanced AM Material Test Data</TableName>
+        <SubsetName>Siemens Energy Materials Data</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ESDU MMDH</TableName>
+        <SubsetName>ESDU MMDH</SubsetName>
+        <LayoutName>ESDU MMDH</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xf1c7ae52-036b-4ace-a475-a8516eb135a5</Id>
+            <Name>Aluminium Alloys</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X2d4f1793-fbaa-4435-b70c-9bd3561bf33f</Id>
+            <Name>Copper Alloys</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xaabb0ca7-73e7-4f8d-b6d3-2f1e87b74131</Id>
+            <Name>Corrosion Resisting Steels</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X9d4082c8-8244-4b13-8d57-fb1e21553143</Id>
+            <Name>Heat Resisting Alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X469b431b-5fc1-4af3-8489-c6c4a500ed78</Id>
+            <Name>Magnesium Alloys</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf8cee8dd-7247-495e-a0be-7215f543cd04</Id>
+            <Name>Non-corrosion Resisting Steels</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa157403c-5234-4a17-bbf8-22820688b713</Id>
+            <Name>Titanium Alloys</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ASME BPVC 2023 Edition</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>Materials properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X989b2ef3-922e-4870-916c-17eb4960a426</Id>
+            <Name>1. Carbon steel and cast iron</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X9a26d63c-1bd0-4e70-857d-5bc0ba62b2d2</Id>
+            <Name>2. Microalloyed steel</Name>
+            <Color>13</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xa1635ceb-d1ed-4f05-a825-8fa81328ecca</Id>
+            <Name>3. C - 0.5Mo steel</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xc4de2688-90b3-4515-b9bf-a79bd2c332fc</Id>
+            <Name>4. Chromium steel</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xc13ddb4c-27dc-4744-a685-ba31cb864779</Id>
+            <Name>5. Manganese steel</Name>
+            <Color>12</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X4039a717-2b80-4729-9514-bead16cacfc4</Id>
+            <Name>6. Silicon steel</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X87d9304a-643d-49bf-88d9-b87dc281a0f4</Id>
+            <Name>7. Nickel steel</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1162a95f-d13a-4990-912c-486c40cd96ba</Id>
+            <Name>8. High nickel steel</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X87c163a0-9d2e-45f6-8f95-ce96698d063d</Id>
+            <Name>9. High alloy steel</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1985a25a-3476-4c4a-8bae-57da049cd326</Id>
+            <Name>1. Aluminum alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xccc527ee-b092-4dda-bdb6-2d4a928ba754</Id>
+            <Name>2. Copper alloys</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X572640b8-20b0-4e82-87f6-ab282cd07b62</Id>
+            <Name>3. Nickel alloys</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X06773920-0d8e-4b9c-9ace-d88f6d44a0b3</Id>
+            <Name>4. Reactive and refractory metals and alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MMPDS-2023 Data</TableName>
+        <SubsetName>All materials</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>Xb7d8de9e-1415-4eae-98ac-dd4e085f127d</Id>
+            <Name>2. Steel</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X306f35a5-d168-4d10-bcc8-93acf084b664</Id>
+            <Name>3. Aluminum</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xba5d0019-3364-45e0-a7cd-b75668432198</Id>
+            <Name>4. Magnesium Alloys</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xfffa8748-39f1-43b2-a9a4-aea966d991f8</Id>
+            <Name>5. Titanium</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X29d1d513-b993-4975-8931-a457bc0f23ff</Id>
+            <Name>6. Heat-Resistant Alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X538a0d3b-a5e1-4a49-82c6-8f994569e052</Id>
+            <Name>7. Miscellaneous Alloys and Hybrid Materials</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>MMPDS-2023 Fasteners</TableName>
+        <SubsetName>All fasteners</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>MH5_FAST-5370</Id>
+            <Name>Aluminum Alloys</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>MH5_FAST-5527</Id>
+            <Name>Heat Resistant Alloys</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>MH5_FAST-5694</Id>
+            <Name>Magnesium Alloys</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>MH5_FAST-5362</Id>
+            <Name>Steels</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>MH5_FAST-6443</Id>
+            <Name>Titanium Alloys</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>ProcessUniverse</TableName>
+        <SubsetName>All processes</SubsetName>
+        <LayoutName>All processes</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producers</TableName>
+        <SubsetName>Producers</SubsetName>
+        <LayoutName>Producers</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Reference</TableName>
+        <SubsetName>All references</SubsetName>
+        <LayoutName>All references</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Shape</TableName>
+        <SubsetName>Shape class</SubsetName>
+        <LayoutName>Shape class</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Coatings</TableName>
+        <SubsetName>All coatings</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Elements</TableName>
+        <SubsetName>Elements</SubsetName>
+        <LayoutName>Elements</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Firehole Composites</TableName>
+        <SubsetName>All data</SubsetName>
+        <LayoutName>Firehole Composites</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X99b86b94-7b7b-45fc-a8e1-2cda34679e30</Id>
+            <Name>Bismaleimide</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf0409ada-f5ad-4987-ad6c-aa6d31fa6258</Id>
+            <Name>Cyanate</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X8bb997cc-56e0-45fb-8945-eebe78eccaaa</Id>
+            <Name>Cyanate Ester</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X9d6250c5-077f-4e49-a129-f97f82e982c5</Id>
+            <Name>Epoxy</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe9a72474-e12c-418c-a774-fe1014b7f8eb</Id>
+            <Name>PEEK</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xc8745b61-d19c-40b6-a6e0-28afe089c7f3</Id>
+            <Name>Phenolic</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X216fb26c-58e3-4542-b257-a8e9e35a9d90</Id>
+            <Name>Polyamide</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xeb558036-5290-4ad3-8e0f-0e7e816b00ec</Id>
+            <Name>Polybutadiene</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xecd62400-3832-49d2-9964-2b442593116b</Id>
+            <Name>Polyester</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X0cb9b1e9-07e4-43bd-b409-219251f29f6e</Id>
+            <Name>Polyimide</Name>
+            <Color>7</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xb569791e-f7d3-402a-aa56-4326534cfe6a</Id>
+            <Name>Polypropylene</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X6e626c88-f87c-4c2a-8586-c872aea3ec0b</Id>
+            <Name>Silicone</Name>
+            <Color>10</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X55f49299-842b-4a0e-9732-a1d26ec0e20d</Id>
+            <Name>Vinyl Ester</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Battery Cells</TableName>
+        <SubsetName>All cells</SubsetName>
+        <LayoutName>All properties</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <Envelopes>
+          <Envelope>
+            <Id>X87f3954f-9442-432c-b819-bb0692e8b865</Id>
+            <Name>Alkaline Manganese</Name>
+            <Color>0</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xaa6770e4-960d-43d6-a08a-5b434eaaa3db</Id>
+            <Name>Lead Acid</Name>
+            <Color>4</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X71cc339c-03d0-4833-9bd4-94563b835e90</Id>
+            <Name>Lithium Manganese Dioxide</Name>
+            <Color>3</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X7b3570d6-1869-4d0f-99c9-21b84f9c36be</Id>
+            <Name>Lithium-ion (LCO)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X5231272c-727f-41e4-8eaf-60c0a77e8be4</Id>
+            <Name>Lithium-ion (LFP)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X182e829d-0095-4ce0-834b-bc0cb4352977</Id>
+            <Name>Lithium-ion (NCA)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X1e9edf3e-4f9a-443f-96a0-89bd8c8055d5</Id>
+            <Name>Lithium-ion (NMC)</Name>
+            <Color>1</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X3397ccb7-0b63-4061-a728-3f9aa97f2f9f</Id>
+            <Name>Mercuric Oxide Zinc</Name>
+            <Color>5</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xedd07867-d8b6-4adc-971b-989be89fff60</Id>
+            <Name>Nickel Cadmium</Name>
+            <Color>6</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>X570acc26-f0d0-4579-bc55-58ba8248679f</Id>
+            <Name>Nickel Metal Hydride</Name>
+            <Color>11</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xf81cce89-4f05-4251-b0f7-6e91be341714</Id>
+            <Name>Silver Oxide</Name>
+            <Color>8</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xe7ffc9c0-2217-4466-adae-a15c83da6795</Id>
+            <Name>Zinc Air</Name>
+            <Color>9</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+          <Envelope>
+            <Id>Xc146b53d-9fa1-4032-94b4-7b7b1dacf288</Id>
+            <Name>Zinc Chloride</Name>
+            <Color>2</Color>
+            <IsVisible>true</IsVisible>
+            <IsCustomEnvelope>false</IsCustomEnvelope>
+          </Envelope>
+        </Envelopes>
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Temperature</Name>
+        <Value>22.999998092651367</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Number of Cycles</Name>
+        <Value>10000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Length</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Load Factor</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Capital Write-off Time</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Overhead Rate</Name>
+        <Value>150</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Batch Size</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Component Mass</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Material Cost</Name>
+        <Value>7.9999995231628418</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Neutron Fluence</Name>
+        <Value>0</Value>
+        <NamedValue>zero</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Dose</Name>
+        <Value>0</Value>
+        <NamedValue>Zero</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Discount Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Magnetic field intensity</Name>
+        <Value>999.99993896484375</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Flux density, B</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency</Name>
+        <Value>1000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Frequency (high)</Name>
+        <Value>10</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>deltaK</Name>
+        <Value>10.988435745239258</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Tangent Modulus</Name>
+        <Value>75.842338562011719</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Crack Length 2a0</Name>
+        <Value>76.199996948242188</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Mean Stress</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Time</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Sheet Thickness</Name>
+        <Value>0.81279999017715454</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Fastener Diameter</Name>
+        <Value>3.1749997138977051</Value>
+        <NamedValue>1/8"</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Specimen Width</Name>
+        <Value>609.5999755859375</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress Concentration</Name>
+        <Value>3</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Data Type</Name>
+        <Value>0</Value>
+        <NamedValue>Curve</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Environment</Name>
+        <Value>2</Value>
+        <NamedValue>Lab air</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain Ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>L/D</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Rupture Type</Name>
+        <Value>2</Value>
+        <NamedValue>Torsional</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>D/t</Name>
+        <Value>80</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress/Strain Curve Type</Name>
+        <Value>2</Value>
+        <NamedValue>Yield</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Other information</Name>
+        <Value>10</Value>
+        <NamedValue>LT direction</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Exposure Time</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Other</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Minimum thickness</Name>
+        <Value>25.399997711181641</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Maximum thickness</Name>
+        <Value>50.799995422363281</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Specimen type</Name>
+        <Value>1</Value>
+        <NamedValue>1-in gage</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Maximum Stress</Name>
+        <Value>344.73788452148438</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Shear</Name>
+        <Value>0.0099999997764825821</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>No. of Standard Deviations</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain rate</Name>
+        <Value>0</Value>
+        <NamedValue>not specified</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Fibre Volume Percent</Name>
+        <Value>50</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Density</Name>
+        <Value>6.9999995231628418</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>True plastic strain</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Cycles</Name>
+        <Value>1000000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Magnetic field intensity (H)</Name>
+        <Value>7960</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Magnetic flux density (B)</Name>
+        <Value>1.939998984336853</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Shear rate</Name>
+        <Value>100</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Larson Miller parameter</Name>
+        <Value>8.2560014724731445</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Creep strain</Name>
+        <Value>0.0010000000474974513</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>R-ratio</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Engineering strain</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Displacement</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>StahlDat Curve Type</Name>
+        <Value>3</Value>
+        <NamedValue>Conventional stress-strain curve</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Effective strain</Name>
+        <Value>0</Value>
+        <NamedValue>Null</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Minor strain</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Cycle No.</Name>
+        <Value>1</Value>
+        <NamedValue>1</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress</Name>
+        <Value>500</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>ESDU Bound</Name>
+        <Value>2</Value>
+        <NamedValue>Lower bound</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>ESDU Minimum thickness</Name>
+        <Value>3</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>ESDU Maximum thickness</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Expansion type</Name>
+        <Value>2</Value>
+        <NamedValue>B: Mean</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Complex component</Name>
+        <Value>1</Value>
+        <NamedValue>Real</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>D-S Data Type</Name>
+        <Value>1</Value>
+        <NamedValue>Measured</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Notes</Name>
+        <Value>0</Value>
+        <NamedValue>True</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Humidity</Name>
+        <Value>0.070000000298023224</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Test Frequency</Name>
+        <Value>0</Value>
+        <NamedValue>5 Hz</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Curve End</Name>
+        <Value>0</Value>
+        <NamedValue>Break</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Strain rate (GP)</Name>
+        <Value>0.083300001919269562</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Pressure</Name>
+        <Value>0</Value>
+        <NamedValue>not specified</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Deflection</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Thickness</Name>
+        <Value>3.2000002861022949</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Velocity</Name>
+        <Value>3.4000000953674316</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Data Type (GP)</Name>
+        <Value>0</Value>
+        <NamedValue>HEATING</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Wavelength</Name>
+        <Value>499.99996948242188</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Larson-Miller parameter</Name>
+        <Value>309.04998779296875</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Curve details</Name>
+        <Value>129</Value>
+        <NamedValue>Bar</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress intensity factor</Name>
+        <Value>21.976871490478516</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Directions</Name>
+        <Value>4</Value>
+        <NamedValue>X-direction</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Hold time</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress concentration factor (Kt)</Name>
+        <Value>1.6000000238418579</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Applied stress</Name>
+        <Value>10</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Test Standard</Name>
+        <Value>1</Value>
+        <NamedValue>ASTM</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Cross-head speed</Name>
+        <Value>0</Value>
+        <NamedValue>not specified</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Index i</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Test temperature</Name>
+        <Value>20.000001907348633</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Build orientation</Name>
+        <Value>1</Value>
+        <NamedValue>0°</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>R-value</Name>
+        <Value>-1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Stress intensity factor Kt</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>(AM) Data type</Name>
+        <Value>1</Value>
+        <NamedValue>Failure</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Specimen surface</Name>
+        <Value>1</Value>
+        <NamedValue>Smooth, longitudinal grind</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Direction</Name>
+        <Value>6</Value>
+        <NamedValue>z direction</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>SHC Data type</Name>
+        <Value>1</Value>
+        <NamedValue>Heating</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Soak time</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Plastic strain</Name>
+        <Value>0.10000000894069672</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Total strain</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Bound</Name>
+        <Value>0</Value>
+        <NamedValue>Lower bound</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Results</Name>
+        <Value>0</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Pull Rate</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Specimen Orientation</Name>
+        <Value>90</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Direction (GP)</Name>
+        <Value>0</Value>
+        <NamedValue>FLOW</NamedValue>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Shear Strain</Name>
+        <Value>0</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="LimitStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-7,-40,32,32,1200,636</Windowplacement>
+      <ZOrder>1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Form>All bulk materials</Form>
+      <SelectedLogicBetweenAttributes>AND</SelectedLogicBetweenAttributes>
+      <LimitValues>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Young's modulus</Property>
+          <Low>200</Low>
+          <High xsi:nil="true" />
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Tensile strength</Property>
+          <Low>300</Low>
+          <High xsi:nil="true" />
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Maximum service temperature</Property>
+          <Low>150</Low>
+          <High xsi:nil="true" />
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueRangeMemento">
+          <Property>Minimum service temperature</Property>
+          <Low xsi:nil="true" />
+          <High>-50</High>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Magnetic type</Property>
+          <Values>
+            <string>Non-magnetic</string>
+          </Values>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Water (fresh)</Property>
+          <Values>
+            <string>Acceptable</string>
+            <string>Excellent</string>
+          </Values>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Water (salt)</Property>
+          <Values>
+            <string>Acceptable</string>
+            <string>Excellent</string>
+          </Values>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Weak acids</Property>
+          <Values>
+            <string>Acceptable</string>
+            <string>Excellent</string>
+          </Values>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Strong acids</Property>
+          <Values>
+            <string>Limited use</string>
+            <string>Acceptable</string>
+            <string>Excellent</string>
+          </Values>
+        </LimitValue>
+        <LimitValue xsi:type="LimitValueDiscreteMemento">
+          <Property>Flammability</Property>
+          <Values>
+            <string>Non-flammable</string>
+          </Values>
+        </LimitValue>
+      </LimitValues>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,80,1424,860</Windowplacement>
+      <ZOrder>2</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Density * Price</Name>
+        <FunctionObjective />
+        <Expression>[Density] * [Price]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>1603.4161752852406</Low>
+        <High>92174519025.679565</High>
+      </xAxis>
+      <yAxis>
+        <Name>Tensile strength (MPa)</Name>
+        <FunctionObjective />
+        <Expression>[Tensile strength]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>87.017066405816266</Low>
+        <High>10756.510632464126</High>
+      </yAxis>
+      <Selections />
+      <Labels>
+        <Label xsi:type="BubbleLabel">
+          <Text>Stainless steel, austenitic, BioDur 108, 30-40% cold worked</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>63525.855857700561</XPos>
+          <YPos>5778.632704225487</YPos>
+          <RecordGruid>X081d3802-6fba-4d39-a8b8-c9a71215ee17</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Stainless steel, austenitic, BioDur 108, 10-20% cold worked</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>74766.393687910575</XPos>
+          <YPos>3854.5189591803378</YPos>
+          <RecordGruid>X9361c181-933e-4e75-828b-89bee77426c1</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Stainless steel, austenitic, AISI 205, annealed</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>16122.100692075697</XPos>
+          <YPos>2737.8087759943323</YPos>
+          <RecordGruid>2715</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Silicon carbide (hot pressed) (commercial purity)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>32661.081819128918</XPos>
+          <YPos>117.4842438589981</YPos>
+          <RecordGruid>347</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>SiC/SiC fiber, 35-45Vf - woven laminate</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>29784208.7031289</XPos>
+          <YPos>147.92276053471906</YPos>
+          <RecordGruid>6811</RecordGruid>
+        </Label>
+        <Label xsi:type="BubbleLabel">
+          <Text>Rhodium, commercial purity, hard</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Open Sans</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>7179623141.5472345</XPos>
+          <YPos>5060.7799021124638</YPos>
+          <RecordGruid>3266</RecordGruid>
+        </Label>
+      </Labels>
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+  </Stages>
+</Project>
