@@ -4,7 +4,8 @@ This repository contains the code, simulations, and documentation for my final-y
 
 ## **Project Overview**  
 🚀 **Autonomous & Manual Navigation**: Supports **autonomous path planning** and **manual control via RF remote interface**.  
-🔍 **Multi-Sensor **: Integrated **LiDAR, stereo cameras, IMU, motor encoders, gas sensors, and temperature & humidity sensors** for comprehensive environmental monitoring. 
+🔍 **Multi-Sensor**: Integrated **LiDAR, stereo cameras, IMU, motor encoders, gas sensors, and temperature & humidity sensors** for comprehensive environmental monitoring. 
+
 🛠 **PCB Modular Sensor Hub**: Designed to adapt to multiple **sensors** .  
 🎯 **Embedded Systems Development**: Developed firmware for **Jetson and STM32**.  
 📊 **Structural & Thermal Analysis**: Conducted **FEA for vibration and load assessment** and **CFD for electronics cooling optimization** using **ANSYS**.  
