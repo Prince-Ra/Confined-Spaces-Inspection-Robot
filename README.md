@@ -4,7 +4,7 @@ This repository contains the code, simulations, and documentation for my final-y
 
 ## **Project Overview**  
 🚀 **Autonomous & Manual Navigation**: Supports **autonomous path planning** and **manual control via remote interface**.  
-🔍 **Multi-Sensor Fusion**: Integrated **LiDAR, stereo cameras, IMU, motor encoders, gas sensors, and temperature & humidity sensors** for comprehensive environmental monitoring.  
+🔍 **Multi-Sensor Fusion**: Integrated **LiDAR, stereo cameras, IMU, motor encoders, gas sensors, and temperature & humidity sensors** for comprehensive environmental monitoring. 
 🛠 **Modular Sensor Hub**: Designed to adapt to multiple **sensor communication protocols (I2C, SPI, UART, CAN, etc.)**.  
 🎮 **Manual Control Mode**: Operators can remotely control the robot for real-time inspections in complex environments.  
 🎯 **Embedded Systems Development**: Developed firmware for **Jetson (high-level AI processing) and STM32 (real-time low-level control)**.  
