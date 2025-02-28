@@ -1,6 +1,6 @@
 # **Development of a Mobile Robot for Autonomous & Manual Inspection of Confined Spaces Using Multi-Sensor Detection Systems**  
 
-This repository contains the code, simulations, and documentation for my final-year internship project. The project focuses on designing and developing an autonomous mobile robot equipped with a **modular multi-sensor detection system** for navigating and inspecting confined spaces. The system supports both **autonomous** and **manual navigation**, making it adaptable to various inspection scenarios.  
+This repository contains the code, simulations, and documentation for my final-year internship project. The project focuses on designing and developing an autonomous mobile robot equipped with a **multi-sensor detection system** for navigating and inspecting confined spaces. The system supports both **autonomous** and **manual navigation**, making it adaptable to various inspection scenarios.  
 
 ## **Project Overview**  
 🚀 **Autonomous & Manual Navigation**: Supports **autonomous path planning** and **manual control via RF remote interface**.  
